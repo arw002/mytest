@@ -15,7 +15,7 @@ namespace MVCStore.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page. Hello world 2!";
+            ViewBag.Message = "Your application description page. Hello world master!";
 
             return View();
         }
