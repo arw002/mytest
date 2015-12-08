@@ -29,7 +29,7 @@ namespace MVCStore.Controllers
 
         public ActionResult Products()
         {
-            return Content("Products");
+            return Content("Products version 2");
         }
     }
 }
