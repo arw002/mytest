@@ -26,5 +26,10 @@ namespace MVCStore.Controllers
 
             return View();
         }
+
+        public ActionResult Products()
+        {
+            return Content("Products");
+        }
     }
 }
